@@ -1,34 +1,44 @@
-🎮 Tic Tac Toe (XO Game) - Flutter
-A modern, animated Tic Tac Toe game built using Flutter. This project demonstrates clean code architecture by separating the Logic (Controller) from the UI, featuring smooth animations and a responsive design.
-لعبة "إكس-أو" (Tic Tac Toe) عصرية ومتحركة مبنية باستخدام Flutter. يوضح هذا المشروع كيفية فصل المنطق البرمجي عن واجهة المستخدم، مع إضافة تأثيرات حركية وتصميم متجاوب.
-✨ Features | المميزات
-Clean Architecture: Separated Controller and UI layers.
-Animations: Smooth scaling animations using TweenAnimationBuilder.
-Score Tracking: Tracks wins for Player X, Player O, and Draws.
-Dynamic Highlighting: Winning squares are highlighted with a neon glow effect.
-Game Reset: Easily restart the game without reloading the app.
-🛠️ Built With | تم التطوير باستخدام
-Flutter - UI Framework.
-Dart - Programming Language.
-📂 Project Structure | هيكل المشروع
-controller.dart: Contains the game logic, winning conditions, and score management.
-ui.dart: Handles the visual representation, animations, and grid building.
-main.dart: The entry point of the application.
+# 🎮 Tic Tac Toe (XO Game) - Flutter
+
+لعبة "إكس-أو" عصرية ومتحركة مبنية باستخدام Flutter، تعتمد على فصل المنطق البرمجي عن الواجهة لضمان كود نظيف وقابل للتطوير.
+
+
+## ✨ المميزات | Features
+*   **Architecture:** فصل كامل بين `Controller` و `UI`.
+*   **Animations:** تأثيرات حركية سلسة عند الضغط باستخدام `TweenAnimationBuilder`.
+*   **Visual Feedback:** تمييز المربعات الفائزة بتأثير توهج (Glow Effect) أخضر.
+*   **Score Tracking:** حساب النقاط لـ (X) و (O) وعدد التعادلات.
+*   **Responsive Grid:** شبكة ألعاب متجاوبة مع مختلف أحجام الشاشات.
+
+
+## 🛠️ التقنيات المستخدمة | Tech Stack
+*   **Framework:** [Flutter](https://flutter.dev)
+*   **Language:** [Dart](https://dart.dev)
+*   **State Management:** Local State Management (StatefulWidget).
+
+## 📂 هيكل المشروع | Project Structure
+
+يتم تقسيم المشروع إلى ملفات أساسية لسهولة الصيانة:
+- **`controller.dart`**: يحتوي على منطق اللعبة، مصفوفة الحركات، وفحص شروط الفوز.
+- **`ui.dart`**: يحتوي على تصميم الواجهة، الـ GridView، والأنيميشن.
+- **`main.dart`**: نقطة انطلاق التطبيق.
+
+## 🚀 كيفية التشغيل | How to Run
+
 🚀 How to Run | كيف تشغل المشروع
 Clone this repository:
-bash
-git clone https://github.com
-يُرجى استخدام الرمز البرمجي بحذر.
+git clone https://github.com/dallllo/xo.git
+
 Install dependencies:
-bash
 flutter pub get
-يُرجى استخدام الرمز البرمجي بحذر.
+
 Run the app:
-bash
 flutter run
-يُرجى استخدام الرمز البرمجي بحذر.
+
 📸 Screenshots | لقطات شاشة
-(يمكنك إضافة صور هنا لاحقاً)
+<img width="1320" height="2868" alt="Simulator Screenshot - iPhone 17 Pro Max - 2026-04-20 at 08 16 44" src="https://github.com/user-attachments/assets/392b01c1-cc4e-492f-af27-587f82b724f0" />
+<img width="1320" height="2868" alt="Simulator Screenshot - iPhone 17 Pro Max - 2026-04-20 at 08 16 39" src="https://github.com/user-attachments/assets/b116e190-3a15-4450-98f5-cf414d841ec9" />
+
 📝 Author | المطور
-[Your Name/اسمك]
-GitHub: [@your-username]
+Name: [dalal faleh]
+GitHub: []
